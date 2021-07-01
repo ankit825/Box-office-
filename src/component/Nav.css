@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  padding-bottom: 0px;
+}
+.nav-list {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.nav-list li {
+  list-style: none;
+  padding: 10px;
+}
+.nav-list li a:hover {
+  text-decoration: none;
+  color: grey;
+}
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-family: ui-serif;
+}
+
+.logo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 50%;
+  border: 3px black;
+  border-radius: 30%;
+}
+
+.input-group {
+  width: 100%;
+  text-align: right;
+  left: 46%;
+}
+#search {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 9px;
+}
+.background {
+  background: rgba(0, 0, 0, 0.7) url('../image/Movie-1200-630.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
